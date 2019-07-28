@@ -1,6 +1,7 @@
 import pandas as pd
 import xml.etree.ElementTree as et
 import datetime
+import sys
 
 # log file
 
@@ -13,9 +14,10 @@ with open(logfile, "a+") as text_file:
 df_list = []
 df_cols = ["CorrelationID", "NumberOfTrades", "Limit", "Value", "TradeID"]
 
+input_file = sys.argv[1]
+
 try:
-    file = r'C:\Users\user\OneDrive\Documents\Python\job-exercies\input.xml'
-    xtree = et.parse(file)
+    xtree = et.parse(input_file)
     xroot = xtree.getroot()
 
     for node in xroot:
@@ -34,9 +36,6 @@ except ValueError as e:
 except FileNotFoundError:
     with open(logfile, "a+") as text_file:
         text_file.write("The input xml file cant be found. Ensure its in the same directory" + '\n')
-
-
-
 
 
 df = pd.DataFrame(df_list, columns = df_cols)
@@ -60,12 +59,17 @@ def aggregate(corid):
     filtered_df = new_df.drop(new_df.columns[2:5], 1)
     pd_list.append(filtered_df)
 
+try:
+    for corid in sorted(set(cid)):
+        new = aggregate(corid)
 
-for corid in sorted(set(cid)):
-    new = aggregate(corid)
-
-final_df = pd.concat(pd_list)
-final_df.to_csv("results.csv", index=None)
+    final_df = pd.concat(pd_list)
+    final_df.to_csv("results.csv", index=None)
+    with open(logfile, "a+") as text_file:
+        text_file.write("Requested result.csv file successfully written" + "\n" + "\n")
+except ValueError as e:
+    with open(logfile, "a+") as text_file:
+        text_file.write(f"Looks like something went wrong. Please check server logs file for more details. {e}" + "\n")
 
 
 
