@@ -1,0 +1,4 @@
+Result,CorrelationID,NumberOfTrades
+Pending,200,2
+Rejected,222,1
+Accepted,234,3

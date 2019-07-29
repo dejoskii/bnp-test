@@ -1,0 +1,327 @@
+2019-07-17 09:08:44,135 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:08:44,135 - bnp_test - INFO - Aggregated trades:{"234": {"count": 3, "limit": 1000, "Value": 500, "NumberOfTrades": 3}, "200": {"count": 1, "limit": 2000, "Value": 1000, "NumberOfTrades": 2}, "222": {"count": 1, "limit": 500, "Value": 600, "NumberOfTrades": 1}}:
+2019-07-17 09:08:44,135 - bnp_test - INFO - Processed trades:[{"Result": "Accepted", "CorrelationID": "234", "NumberOfTrades": 3}, {"Result": "Pending", "CorrelationID": "200", "NumberOfTrades": 2}, {"Result": "Rejected", "CorrelationID": "222", "NumberOfTrades": 1}]
+2019-07-17 09:08:44,135 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:08:45,576 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:08:45,576 - bnp_test - INFO - Aggregated trades:{"234": {"count": 3, "limit": 1000, "Value": 500, "NumberOfTrades": 3}, "200": {"count": 1, "limit": 2000, "Value": 1000, "NumberOfTrades": 2}, "222": {"count": 1, "limit": 500, "Value": 600, "NumberOfTrades": 1}}:
+2019-07-17 09:08:45,576 - bnp_test - INFO - Processed trades:[{"Result": "Accepted", "CorrelationID": "234", "NumberOfTrades": 3}, {"Result": "Pending", "CorrelationID": "200", "NumberOfTrades": 2}, {"Result": "Rejected", "CorrelationID": "222", "NumberOfTrades": 1}]
+2019-07-17 09:08:45,576 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:08:46,666 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:08:46,666 - bnp_test - INFO - Aggregated trades:{"234": {"count": 3, "limit": 1000, "Value": 500, "NumberOfTrades": 3}, "200": {"count": 1, "limit": 2000, "Value": 1000, "NumberOfTrades": 2}, "222": {"count": 1, "limit": 500, "Value": 600, "NumberOfTrades": 1}}:
+2019-07-17 09:08:46,666 - bnp_test - INFO - Processed trades:[{"Result": "Accepted", "CorrelationID": "234", "NumberOfTrades": 3}, {"Result": "Pending", "CorrelationID": "200", "NumberOfTrades": 2}, {"Result": "Rejected", "CorrelationID": "222", "NumberOfTrades": 1}]
+2019-07-17 09:08:46,666 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:09:01,849 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:09:01,849 - bnp_test - INFO - Aggregated trades:{"234": {"count": 3, "limit": 1000, "Value": 500, "NumberOfTrades": 3}, "200": {"count": 1, "limit": 2000, "Value": 1000, "NumberOfTrades": 2}, "222": {"count": 1, "limit": 500, "Value": 600, "NumberOfTrades": 1}}:
+2019-07-17 09:09:01,850 - bnp_test - INFO - Processed trades:[{"Result": "Accepted", "CorrelationID": "234", "NumberOfTrades": 3}, {"Result": "Pending", "CorrelationID": "200", "NumberOfTrades": 2}, {"Result": "Rejected", "CorrelationID": "222", "NumberOfTrades": 1}]
+2019-07-17 09:09:01,850 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:09:27,873 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:09:27,873 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:09:27,878 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:09:27,878 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:09:27,878 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:09:27,882 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:09:27,882 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:09:27,882 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:09:27,882 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:09:27,885 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:09:27,885 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:09:27,885 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:09:27,885 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:09:27,885 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:11:59,644 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,644 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,645 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,645 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,645 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,647 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,647 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,647 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,647 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,649 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,649 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,649 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,649 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,649 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:11:59,650 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,650 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,650 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,650 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,650 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:11:59,652 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,652 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,652 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,652 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,652 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:11:59,653 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:11:59,653 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:11:59,653 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:11:59,653 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:11:59,653 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:11:59,658 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:11:59,658 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:11:59,658 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:11:59,658 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:11:59,658 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:11:59,658 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:12:04,930 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,930 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,931 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,931 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,931 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,932 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,932 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,932 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,932 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,932 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,932 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,932 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,932 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,932 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:12:04,933 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,933 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,933 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,933 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,933 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:12:04,933 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,933 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,933 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,933 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,933 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:12:04,933 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:12:04,933 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:12:04,933 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:12:04,933 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:12:04,933 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:12:04,934 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:12:04,934 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:12:04,934 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:12:04,934 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:12:04,934 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:12:04,934 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:15:13,081 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:13,081 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:13,086 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:13,086 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:13,086 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:13,087 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:13,087 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:13,087 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:13,087 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:16,199 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:16,199 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:16,199 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:16,199 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:16,199 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:15:16,201 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:16,201 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:16,201 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:16,201 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:16,201 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:15:16,202 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:16,202 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:16,202 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:16,202 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:15:16,202 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,678 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,678 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,683 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,683 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,683 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,690 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,690 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,690 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,690 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,695 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,695 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,695 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,695 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,695 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:02,696 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,696 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,696 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,696 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,696 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:02,696 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,696 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,696 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,696 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,696 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:02,704 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:02,704 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:02,704 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:02,704 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:02,704 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:02,704 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:30,385 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,385 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,397 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,397 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,397 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,399 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:30,399 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:30,399 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:30,399 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:30,405 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,405 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,405 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,405 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,405 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:30,407 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,407 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,407 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,407 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:30,407 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:33,268 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:33,268 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:33,268 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:33,268 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:33,268 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:38,387 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:38,387 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:38,387 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:38,387 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:38,387 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:38,387 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:46,239 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,239 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,249 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,249 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,249 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,254 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:46,254 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:46,254 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:46,254 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:46,260 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,260 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,260 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,260 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,260 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:18:46,262 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,262 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,262 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,262 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:46,262 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:18:51,039 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:51,039 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:51,039 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:51,039 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:51,039 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:18:53,918 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:53,918 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:53,918 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:53,918 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:53,918 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:18:53,918 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:20:55,683 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,683 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,693 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,693 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,693 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,694 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:55,694 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:55,694 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:55,694 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:55,703 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,703 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,703 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,703 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,703 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:20:55,706 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,706 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,706 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,706 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:55,706 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:20:57,471 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:57,471 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:57,471 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:57,471 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:20:57,471 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:04,150 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:04,150 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:04,150 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:04,150 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:04,150 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:04,150 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:21,667 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,667 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,671 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,671 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,671 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,677 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:21,677 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:21,677 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:21,677 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:21,684 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,684 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,684 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,684 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,684 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:21:21,685 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,685 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,685 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,685 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:21,685 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:21:23,189 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:23,189 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:23,189 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:23,189 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:23,189 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:21:56,888 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:21:56,888 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:21:56,888 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:21:56,888 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:21:56,888 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:21:56,890 - bnp_test - ERROR - Error writing result to file results.csv
+2019-07-17 09:21:56,890 - bnp_test - ERROR - Error writing result to file results.csv
+2019-07-17 09:21:56,890 - bnp_test - ERROR - Error writing result to file results.csv
+2019-07-17 09:21:56,890 - bnp_test - ERROR - Error writing result to file results.csv
+2019-07-17 09:21:56,890 - bnp_test - ERROR - Error writing result to file results.csv
+2019-07-17 09:21:56,893 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:56,893 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:56,893 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:56,893 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:56,893 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:21:56,893 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:02,960 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,960 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,964 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,964 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,964 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,965 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,965 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,965 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,965 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,968 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,968 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,968 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,968 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,968 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:02,968 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,968 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,968 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,968 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,968 - bnp_test - INFO - Aggregated trades:{"234": {"NumberOfTrades": 3, "limit": 1000, "count": 3, "Value": 500}, "222": {"NumberOfTrades": 1, "limit": 500, "count": 1, "Value": 600}, "200": {"NumberOfTrades": 2, "limit": 2000, "count": 1, "Value": 1000}}:
+2019-07-17 09:22:02,969 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,969 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,969 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,969 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,969 - bnp_test - INFO - Processed trades:[{"CorrelationID": "234", "NumberOfTrades": 3, "Result": "Accepted"}, {"CorrelationID": "222", "NumberOfTrades": 1, "Result": "Rejected"}, {"CorrelationID": "200", "NumberOfTrades": 2, "Result": "Pending"}]
+2019-07-17 09:22:02,969 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:22:02,969 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:22:02,969 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:22:02,969 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:22:02,969 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:22:02,978 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:02,978 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:02,978 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:02,978 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:02,978 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:02,978 - bnp_test - INFO - Writing processed result to file:unit_test_output.csv
+2019-07-17 09:22:47,572 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:47,573 - bnp_test - INFO - Aggregated trades:{"234": {"count": 3, "limit": 1000, "Value": 500, "NumberOfTrades": 3}, "200": {"count": 1, "limit": 2000, "Value": 1000, "NumberOfTrades": 2}, "222": {"count": 1, "limit": 500, "Value": 500, "NumberOfTrades": 1}}:
+2019-07-17 09:22:47,573 - bnp_test - INFO - Processed trades:[{"Result": "Accepted", "CorrelationID": "234", "NumberOfTrades": 3}, {"Result": "Pending", "CorrelationID": "200", "NumberOfTrades": 2}, {"Result": "Accepted", "CorrelationID": "222", "NumberOfTrades": 1}]
+2019-07-17 09:22:47,573 - bnp_test - INFO - Writing processed result to file:results.csv
+2019-07-17 09:22:56,177 - bnp_test - INFO - Trades read from input file input.xml successfully
+2019-07-17 09:22:56,177 - bnp_test - INFO - Aggregated trades:{"234": {"count": 3, "limit": 1000, "Value": 500, "NumberOfTrades": 3}, "200": {"count": 1, "limit": 2000, "Value": 1000, "NumberOfTrades": 2}, "222": {"count": 1, "limit": 500, "Value": 600, "NumberOfTrades": 1}}:
+2019-07-17 09:22:56,177 - bnp_test - INFO - Processed trades:[{"Result": "Accepted", "CorrelationID": "234", "NumberOfTrades": 3}, {"Result": "Pending", "CorrelationID": "200", "NumberOfTrades": 2}, {"Result": "Rejected", "CorrelationID": "222", "NumberOfTrades": 1}]
+2019-07-17 09:22:56,177 - bnp_test - INFO - Writing processed result to file:results.csv
