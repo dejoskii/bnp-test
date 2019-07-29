@@ -49,11 +49,11 @@ def aggregate(corid):
     new_df = df_aggr.iloc[0:1, 0:]
     new_df['Value'] = total_value
 
-    if (new_df.NumberOfTrades.count() == 1 and new_df.NumberOfTrades == 2).all():
+    if (df_aggr.NumberOfTrades > df_aggr.NumberOfTrades.count()).all():
         new_df["State"] = "Pending"
     elif (new_df["Value"] > new_df["Limit"]).all():
         new_df["State"] = "Rejected"
-    elif (new_df["Value"] < new_df["Limit"]).all():
+    elif (new_df["Value"] <= new_df["Limit"]).all():
         new_df["State"] = "Accepted"
 
     filtered_df = new_df.drop(new_df.columns[2:5], 1)
