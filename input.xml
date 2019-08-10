@@ -34,5 +34,11 @@
 		<Value>1000</Value>
 		<TradeID>"645"</TradeID>
 	</CorrelationID>
-	
+
+	<CorrelationID GPID="200">
+		<NumberOfTrades>2</NumberOfTrades>
+		<Limit>2000</Limit>
+		<Value>1000</Value>
+		<TradeID>"663"</TradeID>
+	</CorrelationID>
 </root>
