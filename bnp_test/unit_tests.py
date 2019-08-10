@@ -1,6 +1,6 @@
 import unittest
 import os
-from bnp_test import BnpTest
+from bnp import BnpTest
 
 class BnpUnitTests(unittest.TestCase):
     data = {}

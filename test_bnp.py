@@ -1,5 +1,5 @@
 import unittest
-from bnp_unittest import bnpTest
+from bnp import bnpTest
 import os
 
 class TestBnpSolution(unittest.TestCase):

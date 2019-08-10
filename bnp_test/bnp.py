@@ -110,6 +110,6 @@ class BnpTest():
 
 bnpTest = BnpTest()
 if len(sys.argv) < 2:
-    print ('usage : python bnp_test.py input.xml ')
+    print ('usage : python bnp.py input.xml ')
 else:
     bnpTest.convert(sys.argv[1])

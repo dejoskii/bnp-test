@@ -109,4 +109,3 @@ class bnpTest():
             bnpTest.log_file(self, txt)
 
 
-
