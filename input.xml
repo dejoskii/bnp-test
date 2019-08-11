@@ -1,38 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<root>
-	<CorrelationID GPID="234">
-		<NumberOfTrades>3</NumberOfTrades>
-		<Limit>1000</Limit>
-		<Value>100</Value>
-		<TradeID>"654"</TradeID>
-	</CorrelationID>
-	
-	<CorrelationID GPID="234">
-		<NumberOfTrades>3</NumberOfTrades>
-		<Limit>1000</Limit>
-		<Value>-200</Value>
-		<TradeID>"135"</TradeID>
-	</CorrelationID>
-	
-	<CorrelationID GPID="234">
-		<NumberOfTrades>3</NumberOfTrades>
-		<Limit>1000</Limit>
-		<Value>200</Value>
-		<TradeID>"652"</TradeID>
-	</CorrelationID>
-	
-	<CorrelationID GPID="222">
-		<NumberOfTrades>1</NumberOfTrades>
-		<Limit>500</Limit>
-		<Value>600</Value>
-		<TradeID>"423"</TradeID>
-	</CorrelationID>
-	
-	<CorrelationID GPID="200">
-		<NumberOfTrades>2</NumberOfTrades>
-		<Limit>2000</Limit>
-		<Value>1000</Value>
-		<TradeID>"645"</TradeID>
-	</CorrelationID>
+<input>
+    <trade>
+        <CorrelationID>234</CorrelationID>
+        <NumberOfTrades>3</NumberOfTrades>
+        <Limit>1000</Limit>
+        <Value>100</Value>
+        <TradeID>654</TradeID>
+    </trade>
 
-</root>
+    <trade>
+        <CorrelationID>234</CorrelationID>
+        <NumberOfTrades>3</NumberOfTrades>
+        <Limit>1000</Limit>
+        <Value>200</Value>
+        <TradeID>135</TradeID>
+    </trade>
+
+    <trade>
+        <CorrelationID>222</CorrelationID>
+        <NumberOfTrades>1</NumberOfTrades>
+        <Limit>500</Limit>
+        <Value>600</Value>
+        <TradeID>423</TradeID>
+    </trade>
+
+    <trade>
+        <CorrelationID>234</CorrelationID>
+        <NumberOfTrades>3</NumberOfTrades>
+        <Limit>1000</Limit>
+        <Value>200</Value>
+        <TradeID>652</TradeID>
+    </trade>
+
+     <trade>
+        <CorrelationID>200</CorrelationID>
+        <NumberOfTrades>2</NumberOfTrades>
+        <Limit>2000</Limit>
+        <Value>1000</Value>
+        <TradeID>645</TradeID>
+    </trade>
+	<trade>
+        <CorrelationID>200</CorrelationID>
+        <NumberOfTrades>2</NumberOfTrades>
+        <Limit>2000</Limit>
+        <Value>1000</Value>
+        <TradeID>647</TradeID>
+    </trade>
+</input>
+
+
+
+
+
+
